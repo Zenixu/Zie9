@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('nama_tamu', 50);
             $table->string('alamat', 100);
             $table->string('email', 100);
-            $table->enum('keperluan', ['Urusan Adminitrasi', 'Rapat', 'Belajar', 'Silahturami',]);
+            $table->enum('keperluan', ['Urusan Adminitrasi', 'Rapat', 'Belajar', 'Silahturami']);
             $table->date('tanggal');   
 
             $table->timestamps();
